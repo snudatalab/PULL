@@ -1,4 +1,4 @@
-# PULL: PU-Learning-based Accurate Link Prediction
+# Accurate Link Prediction for Edge-Incomplete Graphs via PU Learning
 
 This repository is the official implementation of [Accurate Link Prediction for Edge-Incomplete Graphs via PU Learning].
 
