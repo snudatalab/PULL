@@ -75,8 +75,7 @@ def train(model, optimizer, train_data, criterion, epoch, z=None):
 
             out_a = model.decode(z_a, edge_label_index_a).view(-1)
             loss = criterion(out, edge_label) + criterion(out_a, edge_label_a)
-            # loss = criterion(out, edge_label)       # L1
-            # loss = criterion(out_a, edge_label_a)  # L2
+
         loss.backward()
         optimizer.step()
 
