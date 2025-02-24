@@ -129,15 +129,12 @@ class GCNLinkPredictor(torch.nn.Module):
     def decode_all(self, z, edge_idx, ratio, epoch):
         n_edge = edge_idx.shape[1]
         n_edge_add = int(n_edge*ratio*(epoch-1))
-        # n_edge_add = 0
 
         # select top-k edge candidates with m
         m = 100
         num_nodes = edge_idx.max().item() + 1
         degrees = degree(edge_idx[0], num_nodes)
         edge_index, edge_weight = top_k_edges(z, edge_idx, n_edge_add, degrees, m)
-        # _, m_list = torch.topk(degrees, m, largest=True)
-        # edge_index, edge_weight = top_k_edges_large(z, m_list, n_edge_add, num_chunks=10)
         
         return edge_index, edge_weight
 
