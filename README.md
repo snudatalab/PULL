@@ -13,7 +13,7 @@ PULL treats the observed edges in the training graph as positive examples, and t
 PULL prevents the model from blindly trusting the observed graph by proposing latent variables for unconnected node pairs, and leveraging the expected graph structure with respect to these variables.
 Extensive experiments on real-world datasets show that PULL consistently outperforms the baselines for predicting links in edge-incomplete graphs.
 
-![Uploading 스크린샷 2025-03-07 오전 10.34.26.png…]()
+[![Uploading 스크린샷 2025-03-07 오전 10.34.26.png…]()](https://github.com/snudatalab/PULL/issues/1#issue-2901784246)
 
 ## Requirements
 We recommend using the following versions of packages:
