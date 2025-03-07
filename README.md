@@ -1,6 +1,6 @@
-# Accurate Link Prediction for Edge-Incomplete Graphs via PU Learning
+# PULL
 
-This repository is the official implementation of Accurate Link Prediction for Edge-Incomplete Graphs via PU Learning (AAAI '25).
+This repository is the official implementation of [Accurate Link Prediction for Edge-Incomplete Graphs via PU Learning](https://datalab.snu.ac.kr/~ukang/papers/pullAAAI25.pdf) (AAAI '25).
 
 ## Abstract
 Given an edge-incomplete graph, how can we accurately find its missing links?
