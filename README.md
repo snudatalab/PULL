@@ -66,7 +66,7 @@ Hyperparameters for the main script are summarized as follows:
 
 ## Reference
 If you use this code, please cite the following paper.
-```shell
+```
 @inproceedings{kim2025accurate,
   title={Accurate link prediction for edge-incomplete graphs via PU learning},
   author={Kim, Junghun and Park, Ka Hyun and Yoon, Hoyoung and Kang, U},
